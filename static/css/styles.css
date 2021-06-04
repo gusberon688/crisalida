@@ -1,0 +1,64 @@
+body{
+    /* background: -webkit-linear-gradient(to left, #ffc0cb, #800080); */  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d871c1, #8d448d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+:root {
+    --facebook: #3b5999;
+    --instagram: #de1b85;
+}
+
+#navbarText>div {
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+#navbarText>div>ul>li {
+    display: inline-block;
+    /* margin: 0 5px; */
+    width: 50px;
+    height: 35 px;
+    text-align: center;
+}
+
+#navbarText>div>ul {
+    margin-bottom: 0%;
+}
+
+#navbarText>div>ul>li>a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 0 10px;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    line-height: 35px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px gainsboro;
+    transition: .2s;
+    border-radius: 50%;
+    
+}
+
+#navbarText>div>ul>li>a:hover {
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
+    filter: none;
+}
+
+#navbarText>div>ul>li>.facebook:hover {
+    background-color: var(--facebook);
+}
+
+#navbarText>div>ul>li>.instagram:hover {
+    background-color: var(--instagram);
+}
+
